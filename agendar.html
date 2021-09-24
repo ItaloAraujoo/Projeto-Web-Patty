@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleagendar.css">
+    <title>Agendar Horário</title>
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <a class="logo" href="index.html"><img srcset="imagem/logo.png" style="width: 15%"></a>
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Marcar horário</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<div id="container2">
+    <div>
+        <h1 id="titulo">Agende Seu Horário</h1>
+        <br>
+    </div>
+
+    <form action="">
+        <fieldset id="agenda">
+            <div class="campo">
+                <label for="nome">Nome</label>
+                <input type="text" name="Nome" id="nome" required> 
+            </div>
+            
+            <div class="campo">
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" name="Sobrenome" id="sobrenome" required>
+            </div>
+
+            <div class="campo">
+                <label for="email">Email</label>
+                <input type="email" name="Email" id="email" required>
+            </div>
+
+            <div class="campo">
+                <label for="data">Data</label>
+                <input type="date" name="Data" id="data" required>
+            </div>
+
+            <div class="campo">
+                <label for="horario">Horário</label>
+                <input type="time" name="Horario" id="horario" required>
+            </div>
+        </fieldset>
+
+        <button class="botao" type="submit">AGENDAR</button>
+    </form>
+</div>  
+
+
+</body>
+</html>

@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Menu*/
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #23232e;
+    height: 10vh;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list  li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+  
+
+  /*Agendar Horário*/
+
+#titulo {
+    font-family: sans-serif;
+    margin-left: 40%;
+    margin-top: 2%;
+}
+
+  fieldset {
+    border: 0;
+    font-family: sans-serif;
+    font-size: 1em;
+    margin-left: 40%;
+    margin-top: 3%;
+  }
+  
+  input, select, button{
+    border-radius: 5px;
+  }
+  
+  .campo {
+    margin-bottom: 1em;
+  }
+  
+  .campo label {
+    margin-bottom: 0.2em;
+    display: block;
+  }
+  
+  fieldset.agenda .campo {
+    float: left;
+    margin-right: 1em;
+  }
+  
+  .campo input[type="text"], .campo input[type="email"], .campo input[type="date"], .campo input[type="time"] {
+    padding: 0.4em;
+    border: 1px solid rgb(19, 18, 18);
+    box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
+    display: block;
+  }
+  
+  .campo input:focus, .campo select:focus{
+    background: #e0e0f8;
+  }
+  
+  .botao {
+    font-size: 1.2em;
+    border: 0;
+    margin-bottom: 1em;
+    background: #59429d;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(153, 148, 148, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .botao:hover {
+    background: #ccbbff;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+  }
+  
+  .button, select {
+    cursor: pointer;
+  }
+  
+ 
