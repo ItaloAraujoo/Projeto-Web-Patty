@@ -15,6 +15,14 @@ a:hover{
     opacity: 0.7;
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url(imagem/fundopreto.jpg) no-repeat center center;
+  background-size: cover;
+  height: 92vh;
+}
+
 .logo {
     font-size: 24px;
     text-transform: uppercase;
@@ -39,14 +47,19 @@ nav {
     margin-left: 32px;
 }
 
-  
+main {
+  background: url(imagem/fundopreto.jpg) no-repeat center center;
+  background-size: cover;
+  height: 92vh;
+}
 
-  /*Agendar Horário*/
+/*Agendar Horário*/
 
 #titulo {
     font-family: sans-serif;
     margin-left: 35%;
     margin-top: 2%;
+    color: #fff;
 }
 
   fieldset {
@@ -55,6 +68,7 @@ nav {
     font-size: 1em;
     margin-left: 40%;
     margin-top: 3%;
+    color: #fff;
   }
   
   input, select, button{
@@ -90,22 +104,26 @@ nav {
     font-size: 1.2em;
     border: 0;
     margin-bottom: 1em;
-    background: #59429d;
+    background: #c29608;
     color: #ffffff;
     padding: 0.2em 0.6em;
     box-shadow: 2px 2px 2px rgba(153, 148, 148, 0.2);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
     margin-left: 400px;
     margin-top: 30px;
+    display: inline-flex;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
     
     
   }
   
   .botao:hover {
-    background: #ccbbff;
+    background: #c29708a6;
     box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
     text-shadow: none;
-
+    cursor: pointer;
   }
   
   .button, select {
@@ -116,15 +134,15 @@ nav {
   #container2 {
     height: 550px;
     margin: 200px;
-    background-color: #ccbbff;
+    background-color: #23232e;
     border-radius: 10px;
     margin-top: 5%;
   }
 
   .footer-basic {
-    padding:30px 0;
-    background-color:#080808;
-    color:#fbfdff;
+    padding:40px 0;
+    background-color:#ffffff;
+    color:#4b4c4d;
   }
   
   .footer-basic ul {
@@ -163,7 +181,7 @@ nav {
     display:inline-block;
     text-align:center;
     border-radius:50%;
-    border:1px solid rgb(255, 255, 255);
+    border:1px solid #ccc;
     margin:0 8px;
     color:inherit;
     opacity:0.75;
@@ -177,9 +195,7 @@ nav {
     margin-top:15px;
     text-align:center;
     font-size:13px;
-    color:rgb(255, 255, 255);
+    color:#aaa;
     margin-bottom:0;
   }
-
   
- 
