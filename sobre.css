@@ -40,10 +40,14 @@ nav {
 }
 
 #sobre{
-    height: 400px;
-    margin: 350px;
+    height: 550px;
+    margin: 250px;
     margin-top: 70px;
+    background-color: rgb(172, 221, 240);
+    border-radius: 20px;
 }
+
+
 
 .titulo {
     text-align: center;
@@ -55,6 +59,7 @@ nav {
 .paragrafos{
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
 }
 
   
